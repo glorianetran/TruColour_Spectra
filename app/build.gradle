@@ -17,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         buildTypes.each {
-            it.buildConfigField 'String', 'API_KEY', "\"AIzaSyDNhm_qlNO1pd_QfffMA1ee7LgfaYr5QAw\""
+            it.buildConfigField 'String', 'API_KEY', "\"AIzaSyBYY-8vQ51a43R7jfdvy34-68i35nO-r44\""
         }
     }
     compileOptions {
@@ -27,6 +27,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:27.0.2'
