@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
+                android:textSize="20sp"
                 android:text="Use the floating action button to select an image."/>
 
             <ImageView
@@ -33,6 +34,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="fitCenter"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textColor="#000"
+                android:background="#fff"
+                android:id="@+id/button" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
